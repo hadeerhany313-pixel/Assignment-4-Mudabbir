@@ -1,0 +1,248 @@
+
+body {
+    background-color: black;
+    color: white;
+    direction: rtl;
+}
+
+.header {
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 80px;
+    background-color: navy;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo p {
+    color: silver;
+}
+
+.profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.header-icons div {
+    background-color: dimgray;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.header-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.header-icons span {
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    background-color: crimson;
+    border-radius: 50%;
+    padding: 3px 7px;
+}
+
+.status {
+    background-color: darkgreen;
+    color: lightgreen;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 12px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 30px;
+}
+
+.card {
+    background-color: #202020;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: right;
+}
+
+.card h3 {
+    color: silver;
+    font-size: 22px;
+}
+
+.card h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.up {
+    color: lightgreen;
+    font-size: 22px;
+}
+
+.down {
+    color: lightpink;
+    font-size: 22px;
+}
+
+.up img,
+.down img {
+    width: 18px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin: 30px;
+}
+
+.transactions {
+    background-color: #202020;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: right;
+}
+
+.side-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.activities,
+.budget {
+    background-color: #202020;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: right;
+}
+
+.content h3 {
+    color: silver;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.table-head {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.table-head p {
+    color: silver;
+    text-align: center;
+    font-size: 16px;
+}
+
+.budget h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.activities {
+    min-height: 150px;
+}
+
+.budget {
+    min-height: 200px;
+}
+
+.transactions {
+    min-height: 300px;
+}
+
+.dashboard-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 30px;
+}
+
+.payment-cards,.chart,.budget-summary {
+    background-color: #202020;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: right;
+}
+
+.payment-card {
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+}
+
+.payment-card img {
+    width: 35px;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.bar {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    height: 130px;
+}
+
+.income {
+    background-color: green;
+    width: 12px;
+    height: 90px;
+}
+
+.expense {
+    background-color: indianred;
+    width: 12px;
+    height: 60px;
+}
+
+.budget-summary h2 {
+    margin: 20px 0;
+}
